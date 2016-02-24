@@ -148,18 +148,24 @@ class ApiClient(object):
                                      headers=header_params,
                                      post_params=post_params, body=body)
 
-        self.last_response = response_data
+        # print response_data.status
+        # print response_data.data
+        if response_data.status == 200:
+            return response_data.data
+        else:
+            return None
+        # self.last_response = response_data
 
         # deserialize response data
-        if response_type:
-            deserialized_data = self.deserialize(response_data, response_type)
-        else:
-            deserialized_data = None
-
-        if callback:
-            callback(deserialized_data)
-        else:
-            return deserialized_data
+        # if response_type:
+        #     deserialized_data = self.deserialize(response_data, response_type)
+        # else:
+        #     deserialized_data = None
+        #
+        # if callback:
+        #     callback(deserialized_data)
+        # else:
+        #     return deserialized_data
 
     def to_path_value(self, obj):
         """

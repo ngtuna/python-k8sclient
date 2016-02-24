@@ -48,7 +48,7 @@ class ApivApi(object):
     def get_api_resources(self, **kwargs):
         """
         get available resources
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -121,7 +121,7 @@ class ApivApi(object):
     def list_namespaced_component_status(self, **kwargs):
         """
         list objects of kind ComponentStatus
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -212,7 +212,7 @@ class ApivApi(object):
     def read_namespaced_component_status(self, name, **kwargs):
         """
         read the specified ComponentStatus
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -294,7 +294,7 @@ class ApivApi(object):
     def list_endpoints(self, **kwargs):
         """
         list or watch objects of kind Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -385,7 +385,7 @@ class ApivApi(object):
     def list_event(self, **kwargs):
         """
         list or watch objects of kind Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -476,7 +476,7 @@ class ApivApi(object):
     def list_limit_range(self, **kwargs):
         """
         list or watch objects of kind LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -567,7 +567,7 @@ class ApivApi(object):
     def list_namespaced_namespace(self, **kwargs):
         """
         list or watch objects of kind Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -658,7 +658,7 @@ class ApivApi(object):
     def create_namespaced_namespace(self, body, **kwargs):
         """
         create a Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -740,7 +740,7 @@ class ApivApi(object):
     def deletecollection_namespaced_namespace(self, **kwargs):
         """
         delete collection of Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -831,7 +831,7 @@ class ApivApi(object):
     def create_namespaced_binding(self, body, namespace, **kwargs):
         """
         create a Binding
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -919,7 +919,7 @@ class ApivApi(object):
     def list_namespaced_endpoints(self, namespace, **kwargs):
         """
         list or watch objects of kind Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1016,7 +1016,7 @@ class ApivApi(object):
     def create_namespaced_endpoints(self, body, namespace, **kwargs):
         """
         create a Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1104,7 +1104,7 @@ class ApivApi(object):
     def deletecollection_namespaced_endpoints(self, namespace, **kwargs):
         """
         delete collection of Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1201,7 +1201,7 @@ class ApivApi(object):
     def read_namespaced_endpoints(self, namespace, name, **kwargs):
         """
         read the specified Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1295,7 +1295,7 @@ class ApivApi(object):
     def replace_namespaced_endpoints(self, body, namespace, name, **kwargs):
         """
         replace the specified Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1389,7 +1389,7 @@ class ApivApi(object):
     def delete_namespaced_endpoints(self, body, namespace, name, **kwargs):
         """
         delete a Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1483,7 +1483,7 @@ class ApivApi(object):
     def patch_namespaced_endpoints(self, body, namespace, name, **kwargs):
         """
         partially update the specified Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1577,7 +1577,7 @@ class ApivApi(object):
     def list_namespaced_event(self, namespace, **kwargs):
         """
         list or watch objects of kind Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1674,7 +1674,7 @@ class ApivApi(object):
     def create_namespaced_event(self, body, namespace, **kwargs):
         """
         create a Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1762,7 +1762,7 @@ class ApivApi(object):
     def deletecollection_namespaced_event(self, namespace, **kwargs):
         """
         delete collection of Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1859,7 +1859,7 @@ class ApivApi(object):
     def read_namespaced_event(self, namespace, name, **kwargs):
         """
         read the specified Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -1953,7 +1953,7 @@ class ApivApi(object):
     def replace_namespaced_event(self, body, namespace, name, **kwargs):
         """
         replace the specified Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2047,7 +2047,7 @@ class ApivApi(object):
     def delete_namespaced_event(self, body, namespace, name, **kwargs):
         """
         delete a Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2141,7 +2141,7 @@ class ApivApi(object):
     def patch_namespaced_event(self, body, namespace, name, **kwargs):
         """
         partially update the specified Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2235,7 +2235,7 @@ class ApivApi(object):
     def list_namespaced_limit_range(self, namespace, **kwargs):
         """
         list or watch objects of kind LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2332,7 +2332,7 @@ class ApivApi(object):
     def create_namespaced_limit_range(self, body, namespace, **kwargs):
         """
         create a LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2420,7 +2420,7 @@ class ApivApi(object):
     def deletecollection_namespaced_limit_range(self, namespace, **kwargs):
         """
         delete collection of LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2517,7 +2517,7 @@ class ApivApi(object):
     def read_namespaced_limit_range(self, namespace, name, **kwargs):
         """
         read the specified LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2611,7 +2611,7 @@ class ApivApi(object):
     def replace_namespaced_limit_range(self, body, namespace, name, **kwargs):
         """
         replace the specified LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2705,7 +2705,7 @@ class ApivApi(object):
     def delete_namespaced_limit_range(self, body, namespace, name, **kwargs):
         """
         delete a LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2799,7 +2799,7 @@ class ApivApi(object):
     def patch_namespaced_limit_range(self, body, namespace, name, **kwargs):
         """
         partially update the specified LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2893,7 +2893,7 @@ class ApivApi(object):
     def list_namespaced_persistent_volume_claim(self, namespace, **kwargs):
         """
         list or watch objects of kind PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -2990,7 +2990,7 @@ class ApivApi(object):
     def create_namespaced_persistent_volume_claim(self, body, namespace, **kwargs):
         """
         create a PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3078,7 +3078,7 @@ class ApivApi(object):
     def deletecollection_namespaced_persistent_volume_claim(self, namespace, **kwargs):
         """
         delete collection of PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3175,7 +3175,7 @@ class ApivApi(object):
     def read_namespaced_persistent_volume_claim(self, namespace, name, **kwargs):
         """
         read the specified PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3269,7 +3269,7 @@ class ApivApi(object):
     def replace_namespaced_persistent_volume_claim(self, body, namespace, name, **kwargs):
         """
         replace the specified PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3363,7 +3363,7 @@ class ApivApi(object):
     def delete_namespaced_persistent_volume_claim(self, body, namespace, name, **kwargs):
         """
         delete a PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3457,7 +3457,7 @@ class ApivApi(object):
     def patch_namespaced_persistent_volume_claim(self, body, namespace, name, **kwargs):
         """
         partially update the specified PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3551,7 +3551,7 @@ class ApivApi(object):
     def replace_namespaced_persistent_volume_claim_status(self, body, namespace, name, **kwargs):
         """
         replace status of the specified PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3645,7 +3645,7 @@ class ApivApi(object):
     def list_namespaced_pod(self, namespace, **kwargs):
         """
         list or watch objects of kind Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3742,7 +3742,7 @@ class ApivApi(object):
     def create_namespaced_pod(self, body, namespace, **kwargs):
         """
         create a Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3830,7 +3830,7 @@ class ApivApi(object):
     def deletecollection_namespaced_pod(self, namespace, **kwargs):
         """
         delete collection of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -3927,7 +3927,7 @@ class ApivApi(object):
     def read_namespaced_pod(self, namespace, name, **kwargs):
         """
         read the specified Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4021,7 +4021,7 @@ class ApivApi(object):
     def replace_namespaced_pod(self, body, namespace, name, **kwargs):
         """
         replace the specified Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4115,7 +4115,7 @@ class ApivApi(object):
     def delete_namespaced_pod(self, body, namespace, name, **kwargs):
         """
         delete a Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4209,7 +4209,7 @@ class ApivApi(object):
     def patch_namespaced_pod(self, body, namespace, name, **kwargs):
         """
         partially update the specified Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4303,7 +4303,7 @@ class ApivApi(object):
     def connect_get_namespaced_pod_attach(self, namespace, name, **kwargs):
         """
         connect GET requests to attach of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4403,7 +4403,7 @@ class ApivApi(object):
     def connect_post_namespaced_pod_attach(self, namespace, name, **kwargs):
         """
         connect POST requests to attach of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4503,7 +4503,7 @@ class ApivApi(object):
     def create_namespaced_binding_binding(self, body, namespace, name, **kwargs):
         """
         create binding of a Binding
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4597,7 +4597,7 @@ class ApivApi(object):
     def connect_get_namespaced_pod_exec(self, namespace, name, **kwargs):
         """
         connect GET requests to exec of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4700,7 +4700,7 @@ class ApivApi(object):
     def connect_post_namespaced_pod_exec(self, namespace, name, **kwargs):
         """
         connect POST requests to exec of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4803,7 +4803,7 @@ class ApivApi(object):
     def read_namespaced_pod_log(self, namespace, name, **kwargs):
         """
         read log of the specified Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -4915,7 +4915,7 @@ class ApivApi(object):
     def connect_get_namespaced_pod_portforward(self, namespace, name, **kwargs):
         """
         connect GET requests to portforward of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5000,7 +5000,7 @@ class ApivApi(object):
     def connect_post_namespaced_pod_portforward(self, namespace, name, **kwargs):
         """
         connect POST requests to portforward of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5085,7 +5085,7 @@ class ApivApi(object):
     def connect_get_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect GET requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5173,7 +5173,7 @@ class ApivApi(object):
     def connect_head_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect HEAD requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5261,7 +5261,7 @@ class ApivApi(object):
     def connect_put_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect PUT requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5349,7 +5349,7 @@ class ApivApi(object):
     def connect_post_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect POST requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5437,7 +5437,7 @@ class ApivApi(object):
     def connect_delete_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect DELETE requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5525,7 +5525,7 @@ class ApivApi(object):
     def connect_options_namespaced_pod_proxy(self, namespace, name, **kwargs):
         """
         connect OPTIONS requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5613,7 +5613,7 @@ class ApivApi(object):
     def connect_get_namespaced_pod_proxy_1(self, namespace, name, path2, **kwargs):
         """
         connect GET requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5707,7 +5707,7 @@ class ApivApi(object):
     def connect_head_namespaced_pod_proxy_2(self, namespace, name, path2, **kwargs):
         """
         connect HEAD requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5801,7 +5801,7 @@ class ApivApi(object):
     def connect_put_namespaced_pod_proxy_3(self, namespace, name, path2, **kwargs):
         """
         connect PUT requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5895,7 +5895,7 @@ class ApivApi(object):
     def connect_post_namespaced_pod_proxy_4(self, namespace, name, path2, **kwargs):
         """
         connect POST requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -5989,7 +5989,7 @@ class ApivApi(object):
     def connect_delete_namespaced_pod_proxy_5(self, namespace, name, path2, **kwargs):
         """
         connect DELETE requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6083,7 +6083,7 @@ class ApivApi(object):
     def connect_options_namespaced_pod_proxy_6(self, namespace, name, path2, **kwargs):
         """
         connect OPTIONS requests to proxy of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6177,7 +6177,7 @@ class ApivApi(object):
     def replace_namespaced_pod_status(self, body, namespace, name, **kwargs):
         """
         replace status of the specified Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6271,7 +6271,7 @@ class ApivApi(object):
     def list_namespaced_pod_template(self, namespace, **kwargs):
         """
         list or watch objects of kind PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6368,7 +6368,7 @@ class ApivApi(object):
     def create_namespaced_pod_template(self, body, namespace, **kwargs):
         """
         create a PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6456,7 +6456,7 @@ class ApivApi(object):
     def deletecollection_namespaced_pod_template(self, namespace, **kwargs):
         """
         delete collection of PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6553,7 +6553,7 @@ class ApivApi(object):
     def read_namespaced_pod_template(self, namespace, name, **kwargs):
         """
         read the specified PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6647,7 +6647,7 @@ class ApivApi(object):
     def replace_namespaced_pod_template(self, body, namespace, name, **kwargs):
         """
         replace the specified PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6741,7 +6741,7 @@ class ApivApi(object):
     def delete_namespaced_pod_template(self, body, namespace, name, **kwargs):
         """
         delete a PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6835,7 +6835,7 @@ class ApivApi(object):
     def patch_namespaced_pod_template(self, body, namespace, name, **kwargs):
         """
         partially update the specified PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -6929,7 +6929,7 @@ class ApivApi(object):
     def list_namespaced_replication_controller(self, namespace, **kwargs):
         """
         list or watch objects of kind ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7026,7 +7026,7 @@ class ApivApi(object):
     def create_namespaced_replication_controller(self, body, namespace, **kwargs):
         """
         create a ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7114,7 +7114,7 @@ class ApivApi(object):
     def deletecollection_namespaced_replication_controller(self, namespace, **kwargs):
         """
         delete collection of ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7211,7 +7211,7 @@ class ApivApi(object):
     def read_namespaced_replication_controller(self, namespace, name, **kwargs):
         """
         read the specified ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7305,7 +7305,7 @@ class ApivApi(object):
     def replace_namespaced_replication_controller(self, body, namespace, name, **kwargs):
         """
         replace the specified ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7399,7 +7399,7 @@ class ApivApi(object):
     def delete_namespaced_replication_controller(self, body, namespace, name, **kwargs):
         """
         delete a ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7493,7 +7493,7 @@ class ApivApi(object):
     def patch_namespaced_replication_controller(self, body, namespace, name, **kwargs):
         """
         partially update the specified ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7587,7 +7587,7 @@ class ApivApi(object):
     def replace_namespaced_replication_controller_status(self, body, namespace, name, **kwargs):
         """
         replace status of the specified ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7681,7 +7681,7 @@ class ApivApi(object):
     def list_namespaced_resource_quota(self, namespace, **kwargs):
         """
         list or watch objects of kind ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7778,7 +7778,7 @@ class ApivApi(object):
     def create_namespaced_resource_quota(self, body, namespace, **kwargs):
         """
         create a ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7866,7 +7866,7 @@ class ApivApi(object):
     def deletecollection_namespaced_resource_quota(self, namespace, **kwargs):
         """
         delete collection of ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -7963,7 +7963,7 @@ class ApivApi(object):
     def read_namespaced_resource_quota(self, namespace, name, **kwargs):
         """
         read the specified ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8057,7 +8057,7 @@ class ApivApi(object):
     def replace_namespaced_resource_quota(self, body, namespace, name, **kwargs):
         """
         replace the specified ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8151,7 +8151,7 @@ class ApivApi(object):
     def delete_namespaced_resource_quota(self, body, namespace, name, **kwargs):
         """
         delete a ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8245,7 +8245,7 @@ class ApivApi(object):
     def patch_namespaced_resource_quota(self, body, namespace, name, **kwargs):
         """
         partially update the specified ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8339,7 +8339,7 @@ class ApivApi(object):
     def replace_namespaced_resource_quota_status(self, body, namespace, name, **kwargs):
         """
         replace status of the specified ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8433,7 +8433,7 @@ class ApivApi(object):
     def list_namespaced_secret(self, namespace, **kwargs):
         """
         list or watch objects of kind Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8530,7 +8530,7 @@ class ApivApi(object):
     def create_namespaced_secret(self, body, namespace, **kwargs):
         """
         create a Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8618,7 +8618,7 @@ class ApivApi(object):
     def deletecollection_namespaced_secret(self, namespace, **kwargs):
         """
         delete collection of Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8715,7 +8715,7 @@ class ApivApi(object):
     def read_namespaced_secret(self, namespace, name, **kwargs):
         """
         read the specified Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8809,7 +8809,7 @@ class ApivApi(object):
     def replace_namespaced_secret(self, body, namespace, name, **kwargs):
         """
         replace the specified Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8903,7 +8903,7 @@ class ApivApi(object):
     def delete_namespaced_secret(self, body, namespace, name, **kwargs):
         """
         delete a Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -8997,7 +8997,7 @@ class ApivApi(object):
     def patch_namespaced_secret(self, body, namespace, name, **kwargs):
         """
         partially update the specified Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9091,7 +9091,7 @@ class ApivApi(object):
     def list_namespaced_service_account(self, namespace, **kwargs):
         """
         list or watch objects of kind ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9188,7 +9188,7 @@ class ApivApi(object):
     def create_namespaced_service_account(self, body, namespace, **kwargs):
         """
         create a ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9276,7 +9276,7 @@ class ApivApi(object):
     def deletecollection_namespaced_service_account(self, namespace, **kwargs):
         """
         delete collection of ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9373,7 +9373,7 @@ class ApivApi(object):
     def read_namespaced_service_account(self, namespace, name, **kwargs):
         """
         read the specified ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9467,7 +9467,7 @@ class ApivApi(object):
     def replace_namespaced_service_account(self, body, namespace, name, **kwargs):
         """
         replace the specified ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9561,7 +9561,7 @@ class ApivApi(object):
     def delete_namespaced_service_account(self, body, namespace, name, **kwargs):
         """
         delete a ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9655,7 +9655,7 @@ class ApivApi(object):
     def patch_namespaced_service_account(self, body, namespace, name, **kwargs):
         """
         partially update the specified ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9749,7 +9749,7 @@ class ApivApi(object):
     def list_namespaced_service(self, namespace, **kwargs):
         """
         list or watch objects of kind Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9846,7 +9846,7 @@ class ApivApi(object):
     def create_namespaced_service(self, body, namespace, **kwargs):
         """
         create a Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -9934,7 +9934,7 @@ class ApivApi(object):
     def read_namespaced_service(self, namespace, name, **kwargs):
         """
         read the specified Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10022,7 +10022,7 @@ class ApivApi(object):
     def replace_namespaced_service(self, body, namespace, name, **kwargs):
         """
         replace the specified Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10116,7 +10116,7 @@ class ApivApi(object):
     def delete_namespaced_service(self, namespace, name, **kwargs):
         """
         delete a Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10204,7 +10204,7 @@ class ApivApi(object):
     def patch_namespaced_service(self, body, namespace, name, **kwargs):
         """
         partially update the specified Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10298,7 +10298,7 @@ class ApivApi(object):
     def read_namespaced_namespace(self, name, **kwargs):
         """
         read the specified Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10386,7 +10386,7 @@ class ApivApi(object):
     def replace_namespaced_namespace(self, body, name, **kwargs):
         """
         replace the specified Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10474,7 +10474,7 @@ class ApivApi(object):
     def delete_namespaced_namespace(self, body, name, **kwargs):
         """
         delete a Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10562,7 +10562,7 @@ class ApivApi(object):
     def patch_namespaced_namespace(self, body, name, **kwargs):
         """
         partially update the specified Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10650,7 +10650,7 @@ class ApivApi(object):
     def replace_namespaced_namespace_finalize(self, body, name, **kwargs):
         """
         replace finalize of the specified Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10738,7 +10738,7 @@ class ApivApi(object):
     def replace_namespaced_namespace_status(self, body, name, **kwargs):
         """
         replace status of the specified Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10826,7 +10826,7 @@ class ApivApi(object):
     def list_namespaced_node(self, **kwargs):
         """
         list or watch objects of kind Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10917,7 +10917,7 @@ class ApivApi(object):
     def create_namespaced_node(self, body, **kwargs):
         """
         create a Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -10999,7 +10999,7 @@ class ApivApi(object):
     def deletecollection_namespaced_node(self, **kwargs):
         """
         delete collection of Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11090,7 +11090,7 @@ class ApivApi(object):
     def read_namespaced_node(self, name, **kwargs):
         """
         read the specified Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11178,7 +11178,7 @@ class ApivApi(object):
     def replace_namespaced_node(self, body, name, **kwargs):
         """
         replace the specified Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11266,7 +11266,7 @@ class ApivApi(object):
     def delete_namespaced_node(self, body, name, **kwargs):
         """
         delete a Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11354,7 +11354,7 @@ class ApivApi(object):
     def patch_namespaced_node(self, body, name, **kwargs):
         """
         partially update the specified Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11442,7 +11442,7 @@ class ApivApi(object):
     def replace_namespaced_node_status(self, body, name, **kwargs):
         """
         replace status of the specified Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11530,7 +11530,7 @@ class ApivApi(object):
     def list_persistent_volume_claim(self, **kwargs):
         """
         list or watch objects of kind PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11621,7 +11621,7 @@ class ApivApi(object):
     def list_namespaced_persistent_volume(self, **kwargs):
         """
         list or watch objects of kind PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11712,7 +11712,7 @@ class ApivApi(object):
     def create_namespaced_persistent_volume(self, body, **kwargs):
         """
         create a PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11794,7 +11794,7 @@ class ApivApi(object):
     def deletecollection_namespaced_persistent_volume(self, **kwargs):
         """
         delete collection of PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11885,7 +11885,7 @@ class ApivApi(object):
     def read_namespaced_persistent_volume(self, name, **kwargs):
         """
         read the specified PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -11973,7 +11973,7 @@ class ApivApi(object):
     def replace_namespaced_persistent_volume(self, body, name, **kwargs):
         """
         replace the specified PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12061,7 +12061,7 @@ class ApivApi(object):
     def delete_namespaced_persistent_volume(self, body, name, **kwargs):
         """
         delete a PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12149,7 +12149,7 @@ class ApivApi(object):
     def patch_namespaced_persistent_volume(self, body, name, **kwargs):
         """
         partially update the specified PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12237,7 +12237,7 @@ class ApivApi(object):
     def replace_namespaced_persistent_volume_status(self, body, name, **kwargs):
         """
         replace status of the specified PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12325,7 +12325,7 @@ class ApivApi(object):
     def list_pod(self, **kwargs):
         """
         list or watch objects of kind Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12416,7 +12416,7 @@ class ApivApi(object):
     def list_pod_template(self, **kwargs):
         """
         list or watch objects of kind PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12507,7 +12507,7 @@ class ApivApi(object):
     def proxy_get_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy GET requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12592,7 +12592,7 @@ class ApivApi(object):
     def proxy_head_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy HEAD requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12677,7 +12677,7 @@ class ApivApi(object):
     def proxy_put_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy PUT requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12762,7 +12762,7 @@ class ApivApi(object):
     def proxy_post_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy POST requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12847,7 +12847,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy DELETE requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -12932,7 +12932,7 @@ class ApivApi(object):
     def proxy_options_namespaced_pod(self, namespace, name, **kwargs):
         """
         proxy OPTIONS requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13017,7 +13017,7 @@ class ApivApi(object):
     def proxy_get_namespaced_pod_7(self, namespace, name, path, **kwargs):
         """
         proxy GET requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13108,7 +13108,7 @@ class ApivApi(object):
     def proxy_head_namespaced_pod_8(self, namespace, name, path, **kwargs):
         """
         proxy HEAD requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13199,7 +13199,7 @@ class ApivApi(object):
     def proxy_put_namespaced_pod_9(self, namespace, name, path, **kwargs):
         """
         proxy PUT requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13290,7 +13290,7 @@ class ApivApi(object):
     def proxy_post_namespaced_pod_10(self, namespace, name, path, **kwargs):
         """
         proxy POST requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13381,7 +13381,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_pod_11(self, namespace, name, path, **kwargs):
         """
         proxy DELETE requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13472,7 +13472,7 @@ class ApivApi(object):
     def proxy_options_namespaced_pod_12(self, namespace, name, path, **kwargs):
         """
         proxy OPTIONS requests to Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13563,7 +13563,7 @@ class ApivApi(object):
     def proxy_get_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy GET requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13648,7 +13648,7 @@ class ApivApi(object):
     def proxy_head_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy HEAD requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13733,7 +13733,7 @@ class ApivApi(object):
     def proxy_put_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy PUT requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13818,7 +13818,7 @@ class ApivApi(object):
     def proxy_post_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy POST requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13903,7 +13903,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy DELETE requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -13988,7 +13988,7 @@ class ApivApi(object):
     def proxy_options_namespaced_service(self, namespace, name, **kwargs):
         """
         proxy OPTIONS requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14073,7 +14073,7 @@ class ApivApi(object):
     def proxy_get_namespaced_service_13(self, namespace, name, path, **kwargs):
         """
         proxy GET requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14164,7 +14164,7 @@ class ApivApi(object):
     def proxy_head_namespaced_service_14(self, namespace, name, path, **kwargs):
         """
         proxy HEAD requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14255,7 +14255,7 @@ class ApivApi(object):
     def proxy_put_namespaced_service_15(self, namespace, name, path, **kwargs):
         """
         proxy PUT requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14346,7 +14346,7 @@ class ApivApi(object):
     def proxy_post_namespaced_service_16(self, namespace, name, path, **kwargs):
         """
         proxy POST requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14437,7 +14437,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_service_17(self, namespace, name, path, **kwargs):
         """
         proxy DELETE requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14528,7 +14528,7 @@ class ApivApi(object):
     def proxy_options_namespaced_service_18(self, namespace, name, path, **kwargs):
         """
         proxy OPTIONS requests to Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14619,7 +14619,7 @@ class ApivApi(object):
     def proxy_get_namespaced_node(self, name, **kwargs):
         """
         proxy GET requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14698,7 +14698,7 @@ class ApivApi(object):
     def proxy_head_namespaced_node(self, name, **kwargs):
         """
         proxy HEAD requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14777,7 +14777,7 @@ class ApivApi(object):
     def proxy_put_namespaced_node(self, name, **kwargs):
         """
         proxy PUT requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14856,7 +14856,7 @@ class ApivApi(object):
     def proxy_post_namespaced_node(self, name, **kwargs):
         """
         proxy POST requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -14935,7 +14935,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_node(self, name, **kwargs):
         """
         proxy DELETE requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15014,7 +15014,7 @@ class ApivApi(object):
     def proxy_options_namespaced_node(self, name, **kwargs):
         """
         proxy OPTIONS requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15093,7 +15093,7 @@ class ApivApi(object):
     def proxy_get_namespaced_node_19(self, name, path, **kwargs):
         """
         proxy GET requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15178,7 +15178,7 @@ class ApivApi(object):
     def proxy_head_namespaced_node_20(self, name, path, **kwargs):
         """
         proxy HEAD requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15263,7 +15263,7 @@ class ApivApi(object):
     def proxy_put_namespaced_node_21(self, name, path, **kwargs):
         """
         proxy PUT requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15348,7 +15348,7 @@ class ApivApi(object):
     def proxy_post_namespaced_node_22(self, name, path, **kwargs):
         """
         proxy POST requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15433,7 +15433,7 @@ class ApivApi(object):
     def proxy_delete_namespaced_node_23(self, name, path, **kwargs):
         """
         proxy DELETE requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15518,7 +15518,7 @@ class ApivApi(object):
     def proxy_options_namespaced_node_24(self, name, path, **kwargs):
         """
         proxy OPTIONS requests to Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15603,7 +15603,7 @@ class ApivApi(object):
     def list_replication_controller(self, **kwargs):
         """
         list or watch objects of kind ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15694,7 +15694,7 @@ class ApivApi(object):
     def list_resource_quota(self, **kwargs):
         """
         list or watch objects of kind ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15785,7 +15785,7 @@ class ApivApi(object):
     def list_secret(self, **kwargs):
         """
         list or watch objects of kind Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15876,7 +15876,7 @@ class ApivApi(object):
     def list_service_account(self, **kwargs):
         """
         list or watch objects of kind ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -15967,7 +15967,7 @@ class ApivApi(object):
     def list_service(self, **kwargs):
         """
         list or watch objects of kind Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16058,7 +16058,7 @@ class ApivApi(object):
     def watch_endpoints_list(self, **kwargs):
         """
         watch individual changes to a list of Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16149,7 +16149,7 @@ class ApivApi(object):
     def watch_event_list(self, **kwargs):
         """
         watch individual changes to a list of Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16240,7 +16240,7 @@ class ApivApi(object):
     def watch_limit_range_list(self, **kwargs):
         """
         watch individual changes to a list of LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16331,7 +16331,7 @@ class ApivApi(object):
     def watch_namespaced_namespace_list(self, **kwargs):
         """
         watch individual changes to a list of Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16422,7 +16422,7 @@ class ApivApi(object):
     def watch_namespaced_endpoints_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16519,7 +16519,7 @@ class ApivApi(object):
     def watch_namespaced_endpoints(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind Endpoints
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16622,7 +16622,7 @@ class ApivApi(object):
     def watch_namespaced_event_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16719,7 +16719,7 @@ class ApivApi(object):
     def watch_namespaced_event(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind Event
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16822,7 +16822,7 @@ class ApivApi(object):
     def watch_namespaced_limit_range_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -16919,7 +16919,7 @@ class ApivApi(object):
     def watch_namespaced_limit_range(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind LimitRange
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17022,7 +17022,7 @@ class ApivApi(object):
     def watch_namespaced_persistent_volume_claim_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17119,7 +17119,7 @@ class ApivApi(object):
     def watch_namespaced_persistent_volume_claim(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17222,7 +17222,7 @@ class ApivApi(object):
     def watch_namespaced_pod_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17319,7 +17319,7 @@ class ApivApi(object):
     def watch_namespaced_pod(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17422,7 +17422,7 @@ class ApivApi(object):
     def watch_namespaced_pod_template_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17519,7 +17519,7 @@ class ApivApi(object):
     def watch_namespaced_pod_template(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17622,7 +17622,7 @@ class ApivApi(object):
     def watch_namespaced_replication_controller_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17719,7 +17719,7 @@ class ApivApi(object):
     def watch_namespaced_replication_controller(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17822,7 +17822,7 @@ class ApivApi(object):
     def watch_namespaced_resource_quota_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -17919,7 +17919,7 @@ class ApivApi(object):
     def watch_namespaced_resource_quota(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18022,7 +18022,7 @@ class ApivApi(object):
     def watch_namespaced_secret_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18119,7 +18119,7 @@ class ApivApi(object):
     def watch_namespaced_secret(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18222,7 +18222,7 @@ class ApivApi(object):
     def watch_namespaced_service_account_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18319,7 +18319,7 @@ class ApivApi(object):
     def watch_namespaced_service_account(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18422,7 +18422,7 @@ class ApivApi(object):
     def watch_namespaced_service_list(self, namespace, **kwargs):
         """
         watch individual changes to a list of Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18519,7 +18519,7 @@ class ApivApi(object):
     def watch_namespaced_service(self, namespace, name, **kwargs):
         """
         watch changes to an object of kind Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18622,7 +18622,7 @@ class ApivApi(object):
     def watch_namespaced_namespace(self, name, **kwargs):
         """
         watch changes to an object of kind Namespace
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18719,7 +18719,7 @@ class ApivApi(object):
     def watch_namespaced_node_list(self, **kwargs):
         """
         watch individual changes to a list of Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18810,7 +18810,7 @@ class ApivApi(object):
     def watch_namespaced_node(self, name, **kwargs):
         """
         watch changes to an object of kind Node
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18907,7 +18907,7 @@ class ApivApi(object):
     def watch_persistent_volume_claim_list(self, **kwargs):
         """
         watch individual changes to a list of PersistentVolumeClaim
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -18998,7 +18998,7 @@ class ApivApi(object):
     def watch_namespaced_persistent_volume_list(self, **kwargs):
         """
         watch individual changes to a list of PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19089,7 +19089,7 @@ class ApivApi(object):
     def watch_namespaced_persistent_volume(self, name, **kwargs):
         """
         watch changes to an object of kind PersistentVolume
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19186,7 +19186,7 @@ class ApivApi(object):
     def watch_pod_list(self, **kwargs):
         """
         watch individual changes to a list of Pod
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19277,7 +19277,7 @@ class ApivApi(object):
     def watch_pod_template_list(self, **kwargs):
         """
         watch individual changes to a list of PodTemplate
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19368,7 +19368,7 @@ class ApivApi(object):
     def watch_replication_controller_list(self, **kwargs):
         """
         watch individual changes to a list of ReplicationController
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19459,7 +19459,7 @@ class ApivApi(object):
     def watch_resource_quota_list(self, **kwargs):
         """
         watch individual changes to a list of ResourceQuota
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19550,7 +19550,7 @@ class ApivApi(object):
     def watch_secret_list(self, **kwargs):
         """
         watch individual changes to a list of Secret
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19641,7 +19641,7 @@ class ApivApi(object):
     def watch_service_account_list(self, **kwargs):
         """
         watch individual changes to a list of ServiceAccount
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
@@ -19732,7 +19732,7 @@ class ApivApi(object):
     def watch_service_list(self, **kwargs):
         """
         watch individual changes to a list of Service
-        
+
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please define a `callback` function
